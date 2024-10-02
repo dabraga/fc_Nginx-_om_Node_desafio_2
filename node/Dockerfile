@@ -12,5 +12,4 @@ RUN apt-get update \
     && apt-get autoremove -yqq --purge wget && rm -rf /var/lib/apt/lists/*
 EXPOSE 3000
 
-CMD [ "node", "index.js" ]
 
